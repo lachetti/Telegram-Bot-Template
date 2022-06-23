@@ -1,0 +1,13 @@
+# compiled output
+/dist
+/node_modules
+
+# app logs
+bot.log
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
