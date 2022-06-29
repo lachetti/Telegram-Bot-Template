@@ -12,6 +12,4 @@ bot.launch()
   .then(() => {
     logger.info('Telegram bot has been launched');
   })
-  .catch((e) => {
-    logger.error('Telegram bot. Launch Error:', e);
-  });
+  .catch(logger.error);
