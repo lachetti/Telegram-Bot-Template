@@ -3,7 +3,10 @@
 /node_modules
 
 # app logs
-bot.log
+.log
+
+# env file
+.env
 
 # IDE - VSCode
 .vscode/*
